@@ -6,7 +6,7 @@ $("#currentDay").append(current_day);
 var timeslots = ["9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"];
 var timeslotnum = [9,10,11,12,13,14,15,16,17];
 
-var hour_now = 12;//new Date().getHours();
+var hour_now = new Date().getHours();
 
 window.onload = function(){
     for(i = 0; i < timeslots.length; i++) {
