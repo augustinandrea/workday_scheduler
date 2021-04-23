@@ -41,7 +41,7 @@ function hour(slot) {
     }
 
 
-    //Changing the color depending .
+    //Changing the color depending on hour of day.
     if (hour_now < hournum) {
         $(text_id).addClass("future");
     } else if (hour_now === hournum) {
